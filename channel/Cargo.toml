@@ -48,7 +48,7 @@ nanoid = { version = "0.4" }
 chrono = "*"
 
 # hex = "0.4.3"
-redis = { version = "0.27", features = ["tokio-comp"] }
+redis = { version = "0.29", features = ["tokio-comp"] }
 
 clap = { version = "4.5", features = ["color", "derive", "wrap_help", "env"] }
 dotenv = { version = "0.15" }
