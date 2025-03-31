@@ -33,7 +33,7 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 futures = "0.3"
 # futures-util = { version = "0.3.30"}
 
-axum = { version = "0.7.5", features = ["default", "ws"] }
+axum = { version = "0.8.3", features = ["default", "ws"] }
 axum-extra = { version = "0.9.3" }
 
 warp = { version = "0.3", features = ["default"] }
